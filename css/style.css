@@ -31,7 +31,7 @@ body{
 header{
     /* height: 100vh; */
     align-content: center;
-    background: url('/img/header.png');
+    background: url('../img/header.png');
     background-size: cover;
 }
 .heding{
@@ -286,7 +286,7 @@ nav{
 }
 
 #key-feature{
-    background: url('/img/feature.png') no-repeat;
+    background: url('../img/feature.png') no-repeat;
     background-size: cover;
     display: flex;
     /* height: 100vh; */
@@ -314,7 +314,7 @@ nav{
 }
 .phone{
     height: 80vh;
-    background: url('/img/phone.png') no-repeat;
+    background: url('../img/phone.png') no-repeat;
     background-size: 100%;
     
 }
@@ -347,7 +347,7 @@ nav{
 
 #form{
     /* height: 100vh; */
-    background: url('/img/form.png') no-repeat;
+    background: url('../img/form.png') no-repeat;
     background-size: cover;
 }
 .letter_c{
