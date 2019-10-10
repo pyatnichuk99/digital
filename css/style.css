@@ -285,7 +285,7 @@ nav{
 }
 
 #key-feature{
-    background: url('/img/feature.png') no-repeat;
+    background: url('../img/feature.png') no-repeat;
     background-size: cover;
     display: flex;
     /* height: 100vh; */
@@ -346,7 +346,7 @@ nav{
 
 #form{
     /* height: 100vh; */
-    background: url('/img/form.png') no-repeat;
+    background: url('../img/form.png') no-repeat;
     background-size: cover;
 }
 .letter_c{
