@@ -500,3 +500,45 @@ button:focus {
 .open__class{
     display: none;
 }
+
+#button__down {
+    display: inline-block;
+    background-color: #11749e;
+    border: 1px solid #303133;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button__down::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 40px;
+    color: #fff;
+}
+
+#button__down:hover {
+    cursor: pointer;
+    /* background-color: #333; */
+}
+
+#button__down:active {
+    background-color: #555;
+}
+
+#button__down.show {
+    opacity: 1;
+    visibility: visible;
+}
