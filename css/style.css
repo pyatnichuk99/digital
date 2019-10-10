@@ -31,7 +31,7 @@ body{
 header{
     /* height: 100vh; */
     align-content: center;
-    background: url('/img/header.png');
+    background: url('../img/header.png');
     background-size: cover;
 }
 .heding{
@@ -313,7 +313,7 @@ nav{
 }
 .phone{
     height: 80vh;
-    background: url('/img/phone.png') no-repeat;
+    background: url('../img/phone.png') no-repeat;
     background-size: 100%;
     
 }
